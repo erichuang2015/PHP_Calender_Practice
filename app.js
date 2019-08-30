@@ -5,7 +5,7 @@ $(function(){
 
     $cell.each(function(index, element) {
         $(element).on('click', function() {
-            let text = $('<div class="js">こんにちは</div>');
+            let text = $('<div class="js"></div>');
             text.insertAfter('table');
         });
     });
